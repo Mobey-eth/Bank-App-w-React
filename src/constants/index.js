@@ -210,3 +210,5 @@ export const clients = [
     logo: dropbox,
   },
 ];
+
+export const heroText = "The Next Payment Method.";
