@@ -40,13 +40,14 @@ const Hero = () => (
         </p>
 
         </div>
-          <img src={robot} alt="billing" className="w-[100%] h-[100%] sm:w-[50%] sm:h-[60%] relative z-[5] mt-2" />
+          
+        <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+          {/* sm:w-[50%] sm:h-[60%] */}
+          <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5] mt-2" />
           <div className="absolute w-[40%] h-[35%] top-0 pink__gradient z-[0]" />
           <div className="absolute w-[80%] h-[80%] bottom-40 rounded-full white__gradient z-[1]" />
           <div className="absolute w-[50%] h-[50%] bottom-20 right-20 blue__gradient z-[0]" />
-        <div>
-
-      </div>
+        </div>
       <div className={`${styles.flexCenter}`}>
         <div className="sm:hidden">
         <GetStarted />
